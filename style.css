@@ -88,6 +88,7 @@ footer{
     color: white;
     flex-direction: column;
     flex-wrap: wrap ;
+    height: 100%;
 
 }
 footer p{

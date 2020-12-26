@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+/* media-query */
+@media only screen and (max-width: 500px){
+    body{
+        background-color: pink;
+    }
+}
+
+/* nav */
+nav{
+    width: 50%;
+    text-align: center;
+    margin: 17px auto;
+    background-color: #03184e;
+    padding: 17px;
+    border-radius: 7px;
+    color: aliceblue;
+    box-shadow: 0 12px 35px #292b6b;
+}
+nav h1{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px auto;
+    background-color: #03184e;
+    border-radius: 7px;
+    box-shadow: 0 12px 35px #292b6b;
+    height: 370px;
+}
+.selector{
+    display: flex;
+    flex-direction: column;
+    margin: 14px auto;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    background-color: #030330;
+    width: 90%;
+    border-radius: 7px;
+    box-shadow: 0 12px 28px #050541;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    height: 65px;
+}
+.inp{
+    width: 60%;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    margin: auto;
+    outline: none;
+    
+}
+.btn{
+    width: 120px;
+    margin: auto;
+    height: 30px;
+    outline: none;
+    background:  #03184e ;
+    border: none;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: #00000a;
+}
+.selector:hover{
+    background-color: #010118;
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #00000a;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap ;
+
+}
+footer p{
+    margin-top: 15px;
+}
+.box{
+    
+    margin: auto;
+}
+
+
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 90%;
+    }
+    nav{
+        width: 90%;
+    }
+}
